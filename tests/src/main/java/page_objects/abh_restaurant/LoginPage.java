@@ -56,6 +56,4 @@ public class LoginPage extends PageBase {
         getLoginButton().click();
         return new HomePage(getDriver());
     }
-
-
 }
